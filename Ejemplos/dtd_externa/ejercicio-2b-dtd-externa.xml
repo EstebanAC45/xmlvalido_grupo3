@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/css" href="../dtd_interna/ejercicio-ii-1b-dtd.css" ?>
+
+<!DOCTYPE menu  SYSTEM "ejercicio-1b-dtd-externa.dtd">
+<menu dia="martes">
+ <platillo>
+  <nombre precio="$3.50" disponibles="13">Carne asada</nombre>
+  <acompañante >Arroz y Ensalada</acompañante>
+  <bebida tipo="Fría">Coca Cola</bebida>
+  <bebida tipo="Fría">Pilsener</bebida>
+ </platillo>
+
+</menu>

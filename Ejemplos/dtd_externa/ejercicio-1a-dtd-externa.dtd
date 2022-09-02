@@ -1,0 +1,8 @@
+		<!ELEMENT liga (equipo+)>
+		<!ELEMENT equipo (nombre, pais, categoria?)>
+		<!ELEMENT nombre (#PCDATA)>
+		<!ATTLIST nombre sexo (M|F) #REQUIRED>
+    <!ATTLIST nombre trofeos  CDATA  #IMPLIED>
+		<!ELEMENT pais (#PCDATA)>
+		<!ELEMENT categoria (#PCDATA)>
+		<!ATTLIST pais departamento CDATA #REQUIRED>

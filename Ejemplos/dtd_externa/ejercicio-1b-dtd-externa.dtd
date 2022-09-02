@@ -1,0 +1,9 @@
+		<!ELEMENT menu (platillo+)>
+		<!ELEMENT platillo (nombre, acompañante, bebida*)>
+		<!ELEMENT nombre (#PCDATA)>
+		<!ATTLIST nombre precio CDATA #REQUIRED>
+    <!ATTLIST nombre disponibles  CDATA  #REQUIRED>
+		<!ELEMENT acompañante (#PCDATA)>
+		<!ELEMENT bebida (#PCDATA)>
+		<!ATTLIST bebida tipo CDATA #REQUIRED>
+		<!ATTLIST menu dia (lunes|martes|miercoles|jueves|viernes) #REQUIRED>

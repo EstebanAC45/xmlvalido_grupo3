@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/css" href="../dtd_interna/ejercicio-ii-1a-dtd.css" ?>
+
+<!DOCTYPE liga SYSTEM "ejercicio-1a-dtd-externa.dtd">
+<liga>
+ <equipo>
+  <nombre sexo="M" trofeos="16">CD AGUILA</nombre>
+  <pais departamento="San Miguel">El Salvador</pais>
+  <categoria>Primera División</categoria>
+ </equipo>
+  
+  <equipo>
+  <nombre sexo="M" trofeos="18">CD FAS</nombre>
+  <pais departamento="Santa Ana">El Salvador</pais>
+  <categoria>Primera División</categoria>
+ </equipo>
+</liga>
