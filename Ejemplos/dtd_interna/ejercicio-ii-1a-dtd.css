@@ -1,0 +1,26 @@
+liga{
+    background-color: aqua;
+    color: brown;
+    font-size: 1.1cm;
+    display: block;
+}
+
+equipo::before { content: '\A'; white-space: pre;}
+
+equipo{
+    color: green;
+    font-weight:bolder;
+    background-color: aqua;
+    border-style: double;
+}
+
+nombre[sexo]::before{
+    content:" Trofeos: " attr(trofeos) "  ";
+    color: blue;
+    font-weight: bolder;
+    background-color: aqua;
+    border-style: double;
+}
+pais[departamento]::before{
+    content: "Dep:" attr(departamento) "  ";
+}
