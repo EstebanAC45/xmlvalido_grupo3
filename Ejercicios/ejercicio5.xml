@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="ejercicio5.css" ?>
+
+<!DOCTYPE agenda SYSTEM "fichero_ejercicio5.dtd">
+
+<agenda>
+    <titulo>AGENDA DE CONTACTOS PERSONALES</titulo><salto></salto><salto></salto>
+    <letra id="A">
+        <persona>
+            <salto>- </salto><nombre>Antonio</nombre>
+            <salto>- </salto><telefonofijo>22948567</telefonofijo>
+            <salto>- </salto><celular>72948375</celular>
+            <salto>- </salto><direccion>San Salvador, San Salvador</direccion>
+            <salto>- </salto><email>antonio@email.com</email><salto></salto><salto></salto>
+        </persona>
+    </letra>
+
+    <letra id="B">
+        <persona>
+            <salto>- </salto><nombre>Beatriz</nombre>
+            <salto>- </salto><telefonofijo>22456537</telefonofijo>
+            <salto>- </salto><celular>72294775</celular>
+            <salto>- </salto><direccion>Verapaz, San Vicente</direccion>
+            <salto>- </salto><email>beatriz@email.com</email><salto></salto><salto></salto>
+        </persona>    
+    </letra>
+    
+    <letra id="C">
+        <persona>
+            <salto>- </salto><nombre>Carlos</nombre>
+            <salto>- </salto><telefonofijo>22029367</telefonofijo>
+            <salto>- </salto><celular>72928422</celular>
+            <salto>- </salto><direccion>Zacatecoluca, La Paz</direccion>
+            <salto>- </salto><email>carlos@email.com</email><salto></salto><salto></salto>
+        </persona>
+    </letra>
+</agenda>

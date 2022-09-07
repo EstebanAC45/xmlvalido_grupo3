@@ -1,0 +1,12 @@
+ <!-- agenda.dtd -->
+<!ELEMENT agenda (titulo, (letra| salto)*)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT salto (#PCDATA)>
+<!ELEMENT letra (persona*)>
+  <!ATTLIST letra id CDATA #REQUIRED>
+<!ELEMENT persona ((nombre | telefonofijo | celular | direccion | email | salto)*)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT telefonofijo (#PCDATA)>
+  <!ELEMENT celular (#PCDATA)>
+  <!ELEMENT direccion (#PCDATA)>
+  <!ELEMENT email (#PCDATA)>
