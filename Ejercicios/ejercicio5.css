@@ -1,0 +1,57 @@
+agenda { 
+  background-color: rgb(91, 122, 176);
+  font-size: xx-large;
+  border: 4px white double;
+  padding: 1% 4% 4% 4%;
+}
+
+persona {
+  color: white;
+}
+
+salto::before { content: '\A';  white-space: pre;}
+
+nombre::before{
+    content: "Nombre: ";
+    color: rgb(230, 230, 230);
+    font-weight: bold;
+}
+
+telefonofijo::before{
+    content: "Teléfono fijo: ";
+    color: rgb(230, 230, 230);
+    font-weight: bold;
+}
+
+celular::before{
+    content: "Celular: ";
+    color: rgb(230, 230, 230);
+    font-weight: bold;
+}
+
+direccion::before{
+    content: "Dirección: ";
+    color: rgb(230, 230, 230);
+    font-weight: bold;
+}
+
+email::before{
+    content: "Email: ";
+    color: rgb(230, 230, 230);
+    font-weight: bold;
+}
+
+letra[id]::before{
+    content:"------------------- "attr(id)" -------------------";
+    color: rgb(91, 122, 176);
+    font-weight: bolder;
+    background-color: white;
+    border-style: double;
+    margin: 22%;
+}
+
+titulo{
+    color: rgb(230, 230, 230);
+    font-weight: bolder;
+    margin: 22%
+}

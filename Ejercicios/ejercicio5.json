@@ -1,0 +1,65 @@
+﻿{
+	"agenda":{
+		"titulo":"AGENDA DE CONTACTOS PERSONALES",
+		"salto":null,
+		"letra":[
+			{
+				"@id":"A",
+				"persona":{
+					"salto":[
+						"- ",
+						"- ",
+						"- ",
+						"- ",
+						"- ",
+						null,
+						null
+					],
+					"nombre":"Antonio",
+					"telefonofijo":"22948567",
+					"celular":"72948375",
+					"direccion":"San Salvador, San Salvador",
+					"email":"antonio@email.com"
+				}
+			},
+			{
+				"@id":"B",
+				"persona":{
+					"salto":[
+						"- ",
+						"- ",
+						"- ",
+						"- ",
+						"- ",
+						null,
+						null
+					],
+					"nombre":"Beatriz",
+					"telefonofijo":"22456537",
+					"celular":"72294775",
+					"direccion":"Verapaz, San Vicente",
+					"email":"beatriz@email.com"
+				}
+			},
+			{
+				"@id":"C",
+				"persona":{
+					"salto":[
+						"- ",
+						"- ",
+						"- ",
+						"- ",
+						"- ",
+						null,
+						null
+					],
+					"nombre":"Carlos",
+					"telefonofijo":"22029367",
+					"celular":"72928422",
+					"direccion":"Zacatecoluca, La Paz",
+					"email":"carlos@email.com"
+				}
+			}
+		]
+	}
+}
