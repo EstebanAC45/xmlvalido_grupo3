@@ -1,0 +1,70 @@
+{
+	"estudiante":{
+		"@nombre":"Estudiante1",
+		"nombres":"Esteban Rodrigo",
+		"apellidos":"Montano Mejia",
+		"carnet":"MB23777",
+		"materias":{
+			"materia1":{
+				"@id":"1",
+				"@nombre":"Tecnicas de Programacion de Internet",
+				"nombre":"Tecnicas de Programacion de Internet",
+				"codigo":"TPI115",
+				"grupos":{
+					"grupoteorico":"GT:01",
+					"horario":[
+						{
+							"dia":"Martes y Viernes ",
+							"hora":"8:05-9:45"
+						},
+						{
+							"dia":"Miercoles",
+							"hora":"9:50-11:30"
+						}
+					],
+					"grupolaboratorio":"GL:04"
+				}
+			},
+			"materia2":{
+				"@id":"2",
+				"@nombre":"Bases de Datos",
+				"nombre":"Bases de Datos",
+				"codigo":"BAD115",
+				"grupos":{
+					"grupoteorico":"GT:03",
+					"horario":[
+						{
+							"dia":"Lunes y Miercoles",
+							"hora":"16:50-18:30"
+						},
+						{
+							"dia":"Jueves",
+							"hora":"16:50-18:30"
+						}
+					],
+					"grupolaboratorio":"GL:01"
+				}
+			},
+			"materia3":{
+				"@id":"3",
+				"@nombre":"Consultoria Profesional",
+				"nombre":"Consultoria Profesional",
+				"codigo":"CPR115",
+				"grupos":{
+					"grupoteorico":"GT:03",
+					"horario":[
+						{
+							"dia":"Martes y Viernes",
+							"hora":"1650-18:30"
+						},
+						{
+							"dia":"Sabado",
+							"hora":"6:20-8:00"
+						}
+					],
+					"grupolaboratorio":"GL:02"
+				}
+			}
+		}
+	}
+}
