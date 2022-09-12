@@ -1,0 +1,18 @@
+
+
+<!ELEMENT materias(materia*)>
+<!ELEMENT materia (nombre,codigo)>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT codigo (#PCDATA)>
+
+<!ELEMENT ejercicio6(grupoteorico,grupoteorico)>
+
+<!ELEMENT grupoteorico (#PCDATA)>
+<!ELEMENT grupoteorico (#PCDATA)>
+
+<!ELEMENT horario (dia,hora)>
+
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+
