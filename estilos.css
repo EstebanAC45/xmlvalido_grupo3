@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@300&display=swap');
+
+*{
+    background-color: rgb(169, 216, 228);
+}
+
+h1{
+    text-align: center;
+    border-style: inset;
+    color: brown;
+    background-color: coral;
+    border-radius: 5px;
+    font-size: 1cm;
+    font-family: 'Poppins';
+}
+
+.datos{
+    border-style: inset;
+    border-color: chocolate;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+table ,tr,td{
+    table-layout: fixed;
+    width: 30%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+    text-align: center;
+    
+}
+tr th{
+    color: red;
+    font-family: 'Poppins';
+}
+
+a{
+    color: brown;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    color: rgb(255, 0, 221);
+}
+
+@media (max-width:360px){
+    .titulo{
+        font-size: 151%;
+        padding: 0px;
+    }
+    .datos{
+        font-size: 73%;
+        padding: 0px;
+    }
+    .ejercicios{
+        width: 200%;
+ 
+    }
+    .ejemplos{
+        width: 300%;
+    }
+}
+
+
+@media (max-width:400px){
+    .titulo{
+        font-size: 151%;
+        padding: 0px;
+    }
+    .datos{
+        font-size: 73%;
+        padding: 0px;
+    }
+    .ejercicios{
+        width: 300%;
+ 
+    }
+    .ejemplos{
+        width: 300%;
+    }
+}
+
+
+@media (max-width:500px){
+    .titulo{
+        font-size: 151%;
+        padding: 0px;
+    }
+    .datos{
+        font-size: 73%;
+        padding: 0px;
+    }
+    .ejercicios{
+        width: 300%;
+ 
+    }
+    .ejemplos{
+        width: 300%;
+    }
+}
