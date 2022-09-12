@@ -1,0 +1,14 @@
+estudiante {
+    padding-left: 5em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(2, 5, 94);
+    background-color: #3b4d48; font-size:0.6cm;}
+  materias {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif;}
+  materia1 {
+    background-color: rgb(19, 19, 21); color: darkgray; font-family:Georgia, 'Times New Roman', Times, serif; display:grid; }
+  materia2 {
+    background-color: rgb(192, 2, 2); color: darkgray; font-family:Cambria, Cochin, Georgia, Times, 'Candara', serif;display:grid;}
+  materia3 {
+    background-color: rgb(230, 223, 7); color: rgb(96, 95, 95); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; display:grid;}

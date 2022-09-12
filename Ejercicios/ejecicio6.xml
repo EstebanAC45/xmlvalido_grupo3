@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="ejercicio6.css" ?>
+
+<!DOCTYPE agenda SYSTEM "fichero_ejercicio6.dtd">
+<!-- ejercicio6-validacionxml  ZF17004 -->
+<estudiante nombre="Estudiante1">
+<nombres>Esteban Rodrigo</nombres>
+<apellidos>Montano Mejia</apellidos>
+<carnet>MB23777</carnet>
+    <materias>
+     <materia id="1" nombre="Tecnicas de Programacion de Internet">
+       <nombre>Tecnicas de Programacion de Internet</nombre>
+       <codigo>TPI115</codigo>
+       <grupos>
+         <grupoteorico>GT:01</grupoteorico>
+           <horario>
+             <dia>Martes y Viernes </dia>
+             <hora>8:05-9:45</hora>
+           </horario>
+         <grupolaboratorio>GL:04</grupolaboratorio>
+          <horario>
+             <dia>Miercoles</dia>
+             <hora>9:50-11:30</hora>
+          </horario>
+       </grupos>
+    </materia>
+    <materia id="2" nombre="Bases de Datos">
+       <nombre>Bases de Datos</nombre>
+       <codigo>BAD115</codigo>
+       <grupos>
+         <grupoteorico>GT:03</grupoteorico>
+            <horario>
+             <dia>Lunes y Miercoles</dia>
+             <hora>16:50-18:30</hora>
+           </horario>
+         <grupolaboratorio>GL:01</grupolaboratorio>
+            <horario>
+             <dia>Jueves</dia>
+             <hora>16:50-18:30</hora>
+           </horario>
+       </grupos>
+    </materia>
+     <materia id="3" nombre="Consultoria Profesional">
+       <nombre>Consultoria Profesional</nombre>
+       <codigo>CPR115</codigo>
+       <grupos>
+         <grupoteorico>GT:03</grupoteorico>
+            <horario>
+             <dia>Martes y Viernes</dia>
+             <hora>1650-18:30</hora>
+           </horario>
+         <grupolaboratorio>GL:02</grupolaboratorio>
+            <horario>
+             <dia>Sabado</dia>
+             <hora>6:20-8:00</hora>
+           </horario>
+      </grupos>
+    </materia>
+   </materias>
+</estudiante>

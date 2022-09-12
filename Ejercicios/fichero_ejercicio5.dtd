@@ -1,5 +1,6 @@
  <!-- agenda.dtd -->
 <!ELEMENT agenda (titulo, (letra| salto)*)>
+
 <!ELEMENT titulo (#PCDATA)>
 <!ELEMENT salto (#PCDATA)>
 <!ELEMENT letra (persona*)>
