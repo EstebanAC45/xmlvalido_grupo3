@@ -1,0 +1,12 @@
+email{
+    text-align:center;
+    background-color:black;
+    color:white;
+    border-style:solid;
+    border-color:green;
+}
+asunto{
+    color: red;
+    font-size: 200%;
+    display: block;
+}

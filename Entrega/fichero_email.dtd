@@ -1,0 +1,11 @@
+<!-- email -->
+<!ELEMENT email (asunto, remitente, destinatario, mensaje)>
+  <!ATTLIST email fecha CDATA #REQUIRED>
+<!ELEMENT asunto (#PCDATA)>
+<!ELEMENT remitente (#PCDATA)>
+<!ELEMENT destinatario (#PCDATA)>
+<!ELEMENT mensaje (titulo, cuerpo, archivos*, firma)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT cuerpo (#PCDATA)>
+<!ELEMENT archivos (EMPTY)>
+<!ELEMENT firma (#PCDATA)>

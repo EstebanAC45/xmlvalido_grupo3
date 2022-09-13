@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="estilo.css" ?>
+<!DOCTYPE email SYSTEM "fichero_email.dtd">
+
+<email fecha="07/09/2022">
+  
+    <asunto>GUIA 32- TareaBox</asunto>
+    <remitente>tareasbox@yahoo.com</remitente>
+    <destinatario>estudiante@gmail.com</destinatario>
+    <mensaje>
+      <titulo>Tarea EX</titulo>
+      <cuerpo>Cuerpo del correo</cuerpo>
+      <firma>F.: tareasbox@yahoo.com</firma>
+    </mensaje>
+    
+</email>
